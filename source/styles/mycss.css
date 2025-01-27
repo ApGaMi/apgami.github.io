@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css?family=Saira Condensed&display=swap');
+
+
+body {
+    font-family: Saira Condensed, serif;
+    font-size: 22px;
+    background: linear-gradient(270deg, #222020 0%, #038803 102%);
+}
+
+p {
+    color: antiquewhite;
+}
+
+.nav-link {
+    color: rgb(0, 140, 19);
+}
+
+.nav-link:hover {
+    color: rgb(176, 241, 172);
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(46, 255, 4);
+}
+
+.navbar-brand img{
+    width: 50px;
+}
+
+.container-fluid button {
+    background-color:rgb(255, 255, 255);
+}
+
+.sidebar {
+    color:#f5f5f5
+}
+
+.sidebar {
+    background-color: rgb(44, 76, 31);
+}
+
+.card {
+    background-color: rgb(68, 120, 68);
+    color: antiquewhite;
+}
+
+.card a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.slide-text,
+.footer-text {
+    color: antiquewhite;
+    margin: auto auto;
+}
+
+footer,
+.btn-outline-success {
+    background-color: rgb(20, 34, 15);
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-anim {
+    animation: call 3s ease 0s 1 normal forwards;
+}
+
+@keyframes call {
+	0%,
+	100% {
+		transform: translateY(0) rotate(0);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateY(-30px) rotate(6deg);
+	}
+
+	30% {
+		transform: translateY(15px) rotate(-6deg);
+	}
+
+	45% {
+		transform: translateY(-15px) rotate(3.6deg);
+	}
+
+	60% {
+		transform: translateY(9px) rotate(-2.4deg);
+	}
+
+	75% {
+		transform: translateY(-6px) rotate(1.2deg);
+	}
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
+
